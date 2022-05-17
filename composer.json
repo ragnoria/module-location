@@ -1,0 +1,15 @@
+{
+    "name": "ragnoria/module-location",
+    "type" : "library",
+    "authors": [
+        {
+            "name": "Adam Łożyński",
+            "email": "lozynskiadam@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ragnoria\\Location\\": "src/"
+        }
+    }
+}
