@@ -10,6 +10,11 @@ class Location
     protected PositionsCollection $positionsCollection;
 
 
+    /**
+     * Location constructor.
+     *
+     * @param string $name
+     */
     public function __construct(protected string $name)
     {
         $this->positionsCollection = new PositionsCollection($this);

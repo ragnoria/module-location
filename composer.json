@@ -1,6 +1,6 @@
 {
     "name": "ragnoria/module-location",
-    "type" : "library",
+    "type": "library",
     "authors": [
         {
             "name": "Adam Łożyński",
@@ -11,5 +11,8 @@
         "psr-4": {
             "Ragnoria\\Location\\": "src/"
         }
+    },
+    "require": {
+        "php": "^8.1"
     }
 }
